@@ -1,6 +1,6 @@
 # FileManipulate
 
-TODO: Write a gem description
+This is a file manipulate library
 
 ## Installation
 
@@ -20,7 +20,14 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+ 1.给文件名添加时间戳，防止重名文件保存到一个位置 
+FileManipulate.get_time_stamp_file_name("abc.txt") => "20150520-143758-abc.txt"
+
+2  #构建小图片路径
+FileManipulate.get_small_img("abc.png") => "abc_small.png" 
+
+
+
 
 ## Contributing
 
