@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["lykperson@163.com"]
   spec.summary       = %q{This is a file manipulate library}
   spec.description   = %q{This is a file manipulate library}
-  spec.homepage      = "http://blog.csdn.net/li_yong_kuan"
+  spec.homepage      = "https://github.com/liyongkuan/file_manipulate"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
